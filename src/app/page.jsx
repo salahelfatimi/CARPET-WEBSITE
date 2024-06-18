@@ -20,6 +20,7 @@ export default function Home() {
 
     return (
         <main className="relative flex items-center justify-center h-screen overflow-hidden">
+            
             <div className="flex lg:flex-row flex-col gap-4 relative">
                 <button className="flex gap-2 items-center justify-center uppercase bg-[#f9f2e8] font-medium  lg:text-lg font-serif z-30 p-3 duration-500 hover:py-4 lg:hover:py-4 lg:hover:px-8 border-2 border-[#644d41] text-[#644d41]">
                     <MousePointer2 size={25} />
