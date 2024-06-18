@@ -31,10 +31,7 @@ export default function Home() {
                     costume your carpet
                 </button>
             </div>
-            <video className="absolute z-10 w-auto brightness-90 min-w-full min-h-full max-w-none" loop muted autoPlay preload="none">
-                <source src="videos/video-market.mp4" type="video/mp4" />
-            </video>
-            
+            <video src="videos/video-market.mp4" className="absolute z-10 w-auto brightness-90 min-w-full min-h-full max-w-none" loop muted autoPlay preload="none"/>
             {/* <audio className="z-40" ref={audioRef} loop autoPlay={true}>
                 <source src="/music.mp3" type="audio/mp3" />
             </audio>
