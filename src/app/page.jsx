@@ -32,15 +32,15 @@ export default function Home() {
                 </button>
             </div>
             <video src="videos/video-market.mp4" className="absolute z-10 w-auto brightness-90 min-w-full min-h-full max-w-none" loop muted autoPlay preload="none"/>
-            {/* <audio className="z-40" ref={audioRef} loop autoPlay={true}>
+            <audio className="z-40" ref={audioRef} loop autoPlay={true}>
                 <source src="/music.mp3" type="audio/mp3" />
             </audio>
             <div
-                className={`absolute rounded-full flex items-center justify-center p-2 lg:p-3 z-10 bottom-32 lg:bottom-24 right-4 lg:right-8 cursor-pointer ${isPlaying ? 'bg-green-500 ' : 'bg-red-500 '}`}
+                className={`absolute rounded-full flex items-center justify-center p-3 z-10 bottom-6 right-4 lg:right-8 cursor-pointer ${isPlaying ? 'bg-green-500 ' : 'bg-red-500 '}`}
                 onClick={toggleAudio}
             >
                 <AudioLines size={40} className={` ${isPlaying ? 'animate-pulse stroke-white' : 'stroke-white'}`} />
-            </div> */}
+            </div>
         </main>
     );
 }
