@@ -4,7 +4,7 @@ import { Instagram, Mail, MapPin, MousePointer2, PenTool, Phone } from "lucide-r
 
 export default function Home() {
     return (
-        <main className="relative flex items-center  justify-center flex-col h-screen overflow-hidden">
+        <main className="relative flex items-center  justify-center flex-col h-screen w-screen overflow-hidden">
 
             <div className="flex lg:flex-row flex-col gap-4 absolute">
                 <button className="flex gap-2 items-center justify-center uppercase bg-[#f9f2e8] text-sm  lg:text-lg  font-mono z-30 p-3 duration-500 hover:py-4 lg:hover:py-4 lg:hover:px-8 border-2 border-[#644d41] text-[#644d41]">
