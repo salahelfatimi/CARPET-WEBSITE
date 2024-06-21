@@ -12,10 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className=" flex flex-col justify-between">
         
           {children}
-          <Footer/>
+          {/* <Footer/> */}
       </body>
     </html>
   );
